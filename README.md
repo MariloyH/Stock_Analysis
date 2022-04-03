@@ -1,10 +1,10 @@
-# stock-analysis  VBA_Challenge
+# stock-analysis VBA_Challenge
 ##  Overview
-  Steve is advicing his parents in stocks investsments. we built for him a MACRO in VBA and excel which analizes all stocks from a explicit year, but he is worried about   the perfomance of that procedure if we analize thousand of stocks. We will refactor previous code to improve its performance. 
-  For this, we are going tu use arrays to storage values instead only variables. 
+ Our Client, Steve,  is advicing his parents in stocks investsments. We built for him a some MACROs in VBA and excel which analize all stocks from a explicit year, and displays is relevant data. From this, our Client is worried about   the perfomance of that procedure if we analize thousand of stocks. We will refactor previous code to improve its performance.
   
 ## Results
-   I inserted a third button too, to facilitate runnig botn analysis, the original and the recfatored. 
+  We begin from our previous procedure, *Sub AllStockAnalysis()* and we choose to improve the time through using arrays for store data instead only variables.  We could use this arrays to displat final informations more quickly. The original code has 2 buttons to call this procedure and another for clear the worsheet *Sub ClearWorksheets*. I inserted a third button, to facilitate runnig bothan alysis, the original and the recfatored.  
+The el
 
 
 ## Summary 
