@@ -3,10 +3,10 @@
  The Client, Steve,  is advicing his parents in stocks investsments. We built for him some MACROs in VBA and excel which analize all stocks from a explicit year, and displays its  relevant data. This is working well, but our Client is worried about   the perfomance of that procedure if we analize thousand of stocks. We will refactor previous code to improve its performance.
   
 ## Results
-The original code had an elapsed time of **0.5273438** seconds for the 2017 data and of **0.5373438** seconds for 2018, both with the same number or registers. So, the difference is not relevant.  From this procedure, *Sub AllStockAnalysis()* and  we were asked improve the execuction time through using arrays for store data instead only variables. See ![](https://github.com/MariloyH/Stock_Analysis/blob/main/Refactored_Initializing_Arrays.png)
+I started from the procedure, *Sub AllStockAnalysis()*. We were asked improve the execuction time through using arrays for store data instead only variables. An array is data type which can storage multiple data and its accesed due an index. In this case, I developed a new procedure, *AllStockAnalysisRefactored()*, in which  I used this arrays to storage tickers names, total volume of transactions per year and the starting and ending price of ticker. At the end of the process, the resulsts are displayed. The original code has two buttons on the worksheet: one  to call the procedure and other for clear the worsheet *Sub ClearWorksheets()*. I inserted a third button, to facilitate both analysis, the original and the refactored.
+Once we compared both routines, I can observe that Refactored procedure is faster than previous. In the case of the 2017 data, the resulting time dropped until **.328125**, 37.7% faster than original version. In the case of the 2018, the resilting time dropped until **0.3320132**, %37.5 faster.
 
-We used this arrays to access and display final informations more quickly. The original code has 2 buttons to call this procedure and another for clear the worsheet *Sub ClearWorksheets*. I inserted a third button, to facilitate both analysis, the original and the refatored.
-The resulting time dropped until **.328125**, 37.7% faster than original version. 
+
 
 
 
