@@ -4,8 +4,7 @@
   
 ## Results
 The original code had an elapsed time of **0.5273438** seconds for the 2017 data and of **0.5373438** seconds for 2018, both with the same number or registers. So, the difference is not relevant.  From this procedure, *Sub AllStockAnalysis()* and  we were asked improve the execuction time through using arrays for store data instead only variables.  
-See ![Fig 1] (png) 
-![Fig. 2] (https://github.com/MariloyH/Stock_Analysis#:~:text=Refactored_Initializing_Arrays.png)
+See ![](https://github.com/MariloyH/Stock_Analysis/blob/main/Refactoring_Initializing_Arrays.png)) 
 We used this arrays to access and display final informations more quickly. The original code has 2 buttons to call this procedure and another for clear the worsheet *Sub ClearWorksheets*. I inserted a third button, to facilitate both analysis, the original and the refatored.
 The resulting time dropped until **.328125**, 37.7% faster than original version. 
 
