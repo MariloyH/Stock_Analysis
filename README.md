@@ -3,7 +3,8 @@
  The Client, Steve,  is advicing his parents in stocks investsments. We built for him some MACROs in VBA and excel which analize all stocks from a explicit year, and displays its  relevant data. This is working well, but our Client is worried about   the perfomance of that procedure if we analize thousand of stocks. We will refactor previous code to improve its performance.
   
 ## Results
-The original code had an elapsed time of **0.5273438** seconds for the 2017 data and of **0.5373438** seconds for 2018, both with the same number or registers. So, the difference is not relevant.  From this procedure, *Sub AllStockAnalysis()* and  we were asked improve the execuction time through using arrays for store data instead only variables.  See !Fig 1] (Refactored_Code_Arrays.png) 
+The original code had an elapsed time of **0.5273438** seconds for the 2017 data and of **0.5373438** seconds for 2018, both with the same number or registers. So, the difference is not relevant.  From this procedure, *Sub AllStockAnalysis()* and  we were asked improve the execuction time through using arrays for store data instead only variables.  
+See ![Fig 1] (Refactored_Code_Arrays.png) 
 ![Fig. 2] (Refactored_Initializing_Array.png)
 We used this arrays to access and display final informations more quickly. The original code has 2 buttons to call this procedure and another for clear the worsheet *Sub ClearWorksheets*. I inserted a third button, to facilitate both analysis, the original and the refatored.
 The resulting time dropped until **.328125**, 37.7% faster than original version. 
