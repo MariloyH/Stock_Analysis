@@ -5,9 +5,9 @@
 ## Results
 I started from the procedure, *Sub AllStockAnalysis()*. We were asked improve the execuction time through using arrays for store data instead only variables. An array is data type which can storage multiple data and its accesed due an index. In this case, I developed a new procedure, *AllStockAnalysisRefactored()*, in which  I used this arrays to storage tickers names, total volume of transactions per year and the starting and ending price of ticker. At the end of the process, the resulsts are displayed. The original code has two buttons on the worksheet: one  to call the procedure and other for clear the worsheet *Sub ClearWorksheets()*. I inserted a third button, to facilitate both analysis, the original and the refactored.
 Once we compared both routines, I can observe that refactored procedure is faster than previous. In the case of the 2017 data, the resulting time  dropped from **0.5273438 seg** to  **.328125 seg**, 37.7% faster than original version. In the case of the 2018, the resulting time dropped from **0.53125 seg**  to  **0.3320132 seg**, %37.5 faster
-1. 
+1. **VBA_Challenge_2017.png**
 ![](https://github.com/MariloyH/Stock_Analysis/blob/main/Resources/VBA_Challenge_2017.png) 
-2. 
+2. **VBA_Challenge_2018.png**
 ![](https://github.com/MariloyH/Stock_Analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
  The use of arrays makes de diference because we are storing all the values in a single data type  meanwhile we read al the chosen year transactions from its corresponding  Year tab and  show the results on the *"AlStockAnalyisis"* tab. as we can see in the nexc code segmentes: 
@@ -15,7 +15,7 @@ Once we compared both routines, I can observe that refactored procedure is faste
  ![](https://github.com/MariloyH/Stock_Analysis/blob/main/Refactored_Initializing_Arrays.png)
  2. **Storing Values**
  ![](https://github.com/MariloyH/Stock_Analysis/blob/main/Refactored_Storing_Values.png)
- 3. **Displaying Results
+ 3. **Displaying Results**
  ![](https://github.com/MariloyH/Stock_Analysis/blob/main/Refactored_Display_Results.png) 
  
 ## Summary 
