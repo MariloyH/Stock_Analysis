@@ -4,9 +4,9 @@
   
 ## Results
 I started from the procedure, *Sub AllStockAnalysis()*. We were asked improve the execuction time through using arrays for store data instead only variables. An array is data type which can storage multiple data and its accesed due an index. In this case, I developed a new procedure, *AllStockAnalysisRefactored()*, in which  I used this arrays to storage tickers names, total volume of transactions per year and the starting and ending price of ticker. At the end of the process, the resulsts are displayed. The original code has two buttons on the worksheet: one  to call the procedure and other for clear the worsheet *Sub ClearWorksheets()*. I inserted a third button, to facilitate both analysis, the original and the refactored.
-Once we compared both routines, I can observe that refactored procedure is faster than previous. In the case of the 2017 data, the resulting time  dropped from **0.5273438 seg** to  **.328125 seg**, 37.7% faster than original version. In the case of the 2018, the resulting time dropped from **0.53125 seg**  to  **0.3320132 seg**, %37.5 faster. /n
-See ![Elpased time Refactored code](https://github.com/MariloyH/Stock_Analysis/blob/main/Resources/VBA_Challenge_2017.png) 
-See !VBA_Challenge_2018
+Once we compared both routines, I can observe that refactored procedure is faster than previous. In the case of the 2017 data, the resulting time  dropped from **0.5273438 seg** to  **.328125 seg**, 37.7% faster than original version. In the case of the 2018, the resulting time dropped from **0.53125 seg**  to  **0.3320132 seg**, %37.5 faster
+1. ![Elpased time Refactored code 2017 stocks] (https://github.com/MariloyH/Stock_Analysis/blob/main/Resources/VBA_Challenge_2017.png) 
+2. ![Elapsed time Refactored code 2018 stocks] (https://github.com/MariloyH/Stock_Analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
  The use os arrays makes de diferencie because we are storing all the values  in a single data type  meanwhie we read them from the Year tab and  show the results on the
  "AlStockAnalyisis" tab. I think thats the signiuficant difference betwen the two codes.
