@@ -10,6 +10,7 @@ See !VBA_Challenge_2018
 
  The use os arrays makes de diferencie because we are storing all the values  in a single data type  meanwhie we read them from the Year tab and  show the results on the
  "AlStockAnalyisis" tab. I think thats the signiuficant difference betwen the two codes.
+ ![Refactored code] (https://github.com/MariloyH/Stock_Analysis/blob/main/Refactored_Initializing_Arrays.png)
 ## Summary 
 ### Refactoring code in general 
 When we start from an existing code, so  we must to be sure to understand what is the problem that the code resolves. From that, we should understand what does the whole code must do and what does each line of code do, because is very easy to do something wrong and spoil the things! We must keep in mind in what aspect we want to improve the code, for example if we are going to correct an error, or if we want to make it faster or to add new functionality, and in that case, be always sure that the past performance not was afected. 
