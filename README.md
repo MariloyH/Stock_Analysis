@@ -10,11 +10,13 @@ Once we compared both routines, I can observe that refactored procedure is faste
 2. 
 ![](https://github.com/MariloyH/Stock_Analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
- The use os arrays makes de diferencie because we are storing all the values  in a single data type  meanwhie we read them from the Year tab and  show the results on the
- "AlStockAnalyisis" tab. I think thats the signiuficant difference betwen the two codes.
+ The use of arrays makes de diference because we are storing all the values in a single data type  meanwhile we read al the chosen year transactions from its corresponding  Year tab and  show the results on the *"AlStockAnalyisis"* tab. as we can see in the nexc code segmentes: 
+ 1. **Working with arrays**
  ![](https://github.com/MariloyH/Stock_Analysis/blob/main/Refactored_Initializing_Arrays.png)
+ 2. **Storing Values**
  ![](https://github.com/MariloyH/Stock_Analysis/blob/main/Refactored_Storing_Values.png)
- [](https://github.com/MariloyH/Stock_Analysis/blob/main/Refactored_Display_Results.png) 
+ 3. **Displaying Results
+ ![](https://github.com/MariloyH/Stock_Analysis/blob/main/Refactored_Display_Results.png) 
  
 ## Summary 
 ### Refactoring code in general 
@@ -31,7 +33,7 @@ When we start from an existing code, so  we must to be sure to understand what i
    3. If we are adding new functions, we must be careful not to affect behavior that was previously working well. 
    
 ### Refactoring this VBA scrip
-   As advantage, the previous code was written for me, so it minimized the error posssibility, but no disappeaar!  This code was runnig and working well. The new code introduced a new way to store the values in an array  that improve the performance of the code. At the same time I added some fuctionality (Addin an aditional button) to ease the execution of the refactored code. Maybe I don´t see any disavantages, because the result was succesful. 
+   As advantage, the previous code was written for me, so it minimized the error posssibility, but no disappeaar!  This code was runnig and working well. The new code introduced a new way to store the values in an array  that improve the performance of the code. At the same time I added some fuctionality (Adding an aditional button) to ease the execution of the refactored code. One disavantage of this code is that is settled in only 12 diferent tickers, its no dynamic, so if we study a different database with more tickers, we would loose  relevant information. In the future may be dynamic, asking at the begining which tickers do you want to include.
   
  
 
